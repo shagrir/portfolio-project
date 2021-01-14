@@ -10,7 +10,7 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
-const Pofrfolio = () => {
+const Portfolio = () => {
     // Netflix
   const openPopupboxNetflix = () => {
     const content = (
@@ -102,7 +102,7 @@ const Pofrfolio = () => {
   }
 
     return (
-        <div className="portfolio-wrapper">
+        <div id="portfolio" className="portfolio-wrapper">
           <div className="container">
             <h1 className="text-uppercase text-center py-5">portfolio</h1>
             <div className="image-box-wrapper row justify-content-center">
@@ -139,4 +139,4 @@ const Pofrfolio = () => {
       )
     }
 
-export default Pofrfolio
+export default Portfolio

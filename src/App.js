@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
-import Pofrfolio from "./components/Pofrfolio";
+import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Contacts from "./components/contacts";
 import Footer from "./components/Footer";
@@ -39,7 +39,7 @@ function App() {
         <AboutMe/>
         <Services/>
         <Experience/>
-        <Pofrfolio/>
+        <Portfolio/>
         <Testimonials/>
         <Contacts/>
         <Footer/>
