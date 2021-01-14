@@ -7,9 +7,9 @@ import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Pofrfolio from "./components/Pofrfolio";
-import Testimonials from "./components/Testimonials"
-import Contacts from "./components/contacts"
-
+import Testimonials from "./components/Testimonials";
+import Contacts from "./components/contacts";
+import Footer from "./components/Footer";
 function App() {
   return (
       <>
@@ -42,6 +42,7 @@ function App() {
         <Pofrfolio/>
         <Testimonials/>
         <Contacts/>
+        <Footer/>
     </>
   );
 }
