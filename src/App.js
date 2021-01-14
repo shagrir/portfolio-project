@@ -11,7 +11,7 @@ import Testimonials from "./components/Testimonials";
 import Contacts from "./components/contacts";
 import Footer from "./components/Footer";
 function App() {
-  return (
+  return (  
       <>
        <Particles
             className="particles-canvas"
